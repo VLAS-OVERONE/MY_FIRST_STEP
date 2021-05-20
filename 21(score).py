@@ -15,7 +15,7 @@ while True:
     elif comp_score == 21:
         print("КОМПЬЮТЕР НАБРАЛ РОВНО 21 ОЧКО!!!")
         break
-    else:                # Далее не хочет работать. Не знаю, как недопустить "перебор" компьютера, чтобы он не проигрывал
+    else:
         if comp_score > 21:
             print("ПЕРЕБОР")
             comp_score = 0
@@ -45,3 +45,4 @@ elif hum_score == comp_score:
     print("ПОБЕДИЛА ДРУЖБА")
 else:
     print("ВЫ ПОБЕДИЛИ")
+print("Спасибо за игру")

@@ -1,6 +1,5 @@
 # Пользователя просят ввести его возраст. Проверка на ошибки try - except - raise:
 
-
 def age(data):
     if data.isnumeric():
         data = int(data)
@@ -10,7 +9,6 @@ def age(data):
             raise ValueError
     else:
         raise TypeError
-
 try:
     s = age(input("Введите свой возраст:"))
 except ValueError:
